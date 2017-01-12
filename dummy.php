@@ -18,7 +18,8 @@ function dummy_doFraudCheck($params, $checkonly=false) {
 	}
 }
 
-function dummy_displayFraudResults($values) {
+function dummy_processResultsForDisplay($values) {
 	echo 'Dummy fraud record result. Disregard';
+	return array('Result name' => 'result value');
 }
 ?>
